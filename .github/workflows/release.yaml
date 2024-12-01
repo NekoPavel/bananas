@@ -27,7 +27,7 @@ jobs:
       - name: Install node dependencies
         run: npm ci
       - name: Install bsdtar
-        run: apt install libarchive-tools
+        run: sudo apt install libarchive-tools
       - name: Build Linux
         run: ./scripts/build.sh
       - name: Linux Release
