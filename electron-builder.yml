@@ -43,6 +43,7 @@ linux:
     - AppImage
     - snap
     - deb
+    - pacman
   maintainer: getbananas.net
   category: Utility
   icon: build/
@@ -51,6 +52,8 @@ appImage:
 snap:
   artifactName: ${name}_${arch}.${ext}
 deb:
+  artifactName: ${name}_${arch}.${ext}
+pacman:
   artifactName: ${name}_${arch}.${ext}
 npmRebuild: false
 publish:
