@@ -12,7 +12,7 @@ LINUX_FILES=(
   "dist/${BIN_NAME}_amd64.deb"
   "dist/${BIN_NAME}_amd64.snap"
   "dist/${BIN_NAME}_x86_64.AppImage"
-  "dist/${BIN_NAME}_x86_64.pacman"
+  "dist/${BIN_NAME}_x64.pacman"
 )
 
 WINDOWS_FILES=(
